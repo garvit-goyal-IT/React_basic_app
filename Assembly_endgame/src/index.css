@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "Hanken Grotest", Arial, sans-serif;
+  background-color: #262626;
+  color: #d9d9d9;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+header{
+  text-align: center;
+}
+
+header > h1{
+  font-size: 2.9rem;
+  font-weight: 500;
+  color: #f9f4da;
+}
+
+header > p{
+  font-size: 1.75 rem;
+  max-width: 400px;
+  color: #8E8E8E;
+}
+
+.game-status{
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  width: 450px;
+  align-items: center;
+  color: #F9F4DA;
+  background-color:rgb(14, 190, 102);
+  border-radius: 10px;
+}
+
+.game-status > h2{
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 5px;
+}
+
+.game-status > p{
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-top: 0px ;
+}
