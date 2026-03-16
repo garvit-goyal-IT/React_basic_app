@@ -52,3 +52,77 @@ header > p{
   font-size: 1.5rem;
   margin-top: 0px ;
 }
+
+
+section.language-chips{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  max-width: 450px;
+  margin-top: 40px ;
+  margin-bottom: 40px;
+}
+
+span.chip{
+  border-radius: 3px;
+  padding: 8.5px;
+  font-size: large;
+}
+
+section.word{
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+section.word > span{
+  height: 60px;
+  width: 80px;
+  background-color: #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  border-bottom: 1px solid #F9F4DA;
+}
+
+section.keyboard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+  gap: 6px;
+  margin-top: 40px;
+}
+
+section.keyboard > button{ 
+  height: 40px;
+  width: 40px;
+  background-color: darkgoldenrod;
+  color: black;
+  border-radius: 4px;
+  font-size: larger;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.new-game-button{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-game{
+  height: 50px;
+  width: 240px;
+  background-color: rgb(15, 140, 144);
+  font-size: larger;
+  color: black;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+}
+

@@ -26,21 +26,21 @@ export const languages = [
     },
     {
         name: "Node.js",
-        backgroundColor: "#E2680F",
+        backgroundColor: "#599137",
         color: "#F9F4DA"
     },
     {
         name: "Python",
         backgroundColor: "#E2680F",
-        color: "#F9F4DA"
+        color: "#1E1E1E"
     },{ 
        name: "Ruby",
-        backgroundColor: "#E2680F",
+        backgroundColor: "red",
         color: "#F9F4DA"
     },
     {
         name: "Assembly",
-        backgroundColor: "#E2680F",
+        backgroundColor: "#008b8b",
         color: "#F9F4DA" 
     }
 ]
